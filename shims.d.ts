@@ -82,6 +82,8 @@ declare namespace flashlog {
      * @param fromRowIndex 0-based index of start: Default value of 0
      * @returns header + rows
      */
+    //% parts="flashlog"
+    //% group="micro:bit (V2)"
     //% fromRowIndex.defl=0 shim=flashlog::getNumberOfRows
     function getNumberOfRows(fromRowIndex?: int32): int32;
 
